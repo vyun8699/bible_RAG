@@ -64,17 +64,5 @@ streamlit run streamlit_app.py
 
 This will launch a web interface where you can interact with the Bible-aware chatbot.
 
-## Project Structure
 
-
-bible_RAG/  
-├── assets/  
-│   └── bible/  
-│       ├── kjv.txt              # Main Bible text file  
-│       ├── kjv_test.txt         # Test Bible text file  
-│       └── chromadb/            # Persistent storage for embeddings  
-├── langchain.ipynb              # LangChain implementation notebook  
-├── preprocess_verse_chunks.ipynb # Data preprocessing notebook  
-├── requirements.txt             # Project dependencies  
-└── streamlit_app.py            # Main application file  
 
