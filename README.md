@@ -1,4 +1,4 @@
-# Bible RAG (Retrieval Augmented Generation)
+# Biblechats (Bible Based RAG Model)
 
 A chatbot powered by OpenAI that uses the King James Version (KJV) of the Holy Bible as its source of truth through retrieval augmented generation.
 
@@ -66,15 +66,15 @@ This will launch a web interface where you can interact with the Bible-aware cha
 
 ## Project Structure
 
-\`\`\`
-bible_RAG/
-├── assets/
-│   └── bible/
-│       ├── kjv.txt              # Main Bible text file
-│       ├── kjv_test.txt         # Test Bible text file
-│       └── chromadb/            # Persistent storage for embeddings
-├── langchain.ipynb              # LangChain implementation notebook
-├── preprocess_verse_chunks.ipynb # Data preprocessing notebook
-├── requirements.txt             # Project dependencies
-└── streamlit_app.py            # Main application file
-\`\`\`
+
+bible_RAG/  
+├── assets/  
+│   └── bible/  
+│       ├── kjv.txt              # Main Bible text file  
+│       ├── kjv_test.txt         # Test Bible text file  
+│       └── chromadb/            # Persistent storage for embeddings  
+├── langchain.ipynb              # LangChain implementation notebook  
+├── preprocess_verse_chunks.ipynb # Data preprocessing notebook  
+├── requirements.txt             # Project dependencies  
+└── streamlit_app.py            # Main application file  
+
