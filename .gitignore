@@ -1,0 +1,5 @@
+.DS_Store
+.env
+
+#csv
+kjv_embeddings.csv
